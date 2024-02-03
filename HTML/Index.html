@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moderní grafické studio, které tvoří originální design pro vaší značku. Vše od designu až po výrobu reklamních předmětů.">
+    <meta name="keywords" content="design, grafické studio, reklama, tvorba webů, reklamní předměty, digitální prezentace, polepy, loga">
+    <meta name="author" content="Martin Álló">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=loremgraphics"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'loremgraphics');
+    </script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="icon" href="../IMAGES/Icon.ico">
+    <title>Lorem Graphics</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="Index.html"><img src="../IMAGES/MainLogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class=" fa fa-close " onclick="hideMenu() "></i>
+                    <ul>
+                        <li><a href="#Services">Služby</a></li>
+                        <li><a href="#Products">Produkty</a></li>
+                        <li><a href="#References">Reference</a></li>
+                        <li><a href="#Contacts">Kontakty</a></li>
+                    </ul>
+
+                </div>
+
+                <i class="fa fa-bars " onclick="showMenu() "></i>
+
+            </div>
+
+        </nav>
+    </header>
+    <section class="header" id="Header">
+
+
+        <div class="text-box">
+            <h1>Moderní design pro Vaší značku</h1>
+            <p>Návrh a realizace designu</p>
+            <a href="#Services" class="hero-btn">Zobrazit více</a>
+        </div>
+    </section>
+    <section class="services" id="Services">
+
+        <h1 class="Title">Naše služby</h1>
+
+        <div class="row">
+            <div class="service-col">
+                <img src="" alt="">
+                <h3>Návrh designu</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="service-col">
+                <img src="" alt="">
+                <h3>Výroba reklamních produktů</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="service-col">
+                <img src="" alt="">
+                <h3>Digitální prezentace</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section class="products" id="Products">
+
+        <h1 class="Title">Produkty</h1>
+
+        <div class="row">
+            <div class="service-col">
+                <img src="../IMAGES/reklam.jpg" alt="" class="produktyImg">
+                <h3>Reklamní předměty</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="service-col">
+                <img src="../IMAGES/polepy.jpg" alt="" class="produktyImg">
+                <h3>Polepy vozidel</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="service-col">
+                <img src="../IMAGES/MainLogo.png" alt="" class="produktyImg">
+                <h3>Loga</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="service-col">
+                <img src="../IMAGES/tiskoviny.jpg" alt="" class="produktyImg">
+                <h3>Tiskoviny</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="service-col">
+                <img src="../IMAGES/Interier.jpg" alt="" class="produktyImg">
+                <h3>Interierová reklama</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="service-col">
+                <img src="../IMAGES/Billboard.jpg" alt="" class="produktyImg">
+                <h3>Venkovní reklama</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="btn_contact">
+            <a href="#Contacts" class="hero-btn2">V případě zájmu nás kontaktujte zde</a>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section class="references" id="References">
+
+        <h1 class="Title">Reference</h1>
+
+        <div class="carousel">
+            <div class="reference">
+                <img src="../IMAGES/Interier.jpg" alt="" class="referenceImg" />
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut quam vel purus sagittis fermentum."</p>
+                <p class="author">Company ABC</p>
+            </div>
+            <div class="reference">
+                <img src="../IMAGES/reklam.jpg" alt="" class="referenceImg" />
+                <p>"Sed euismod, nisl eget cursus rhoncus, sem tellus semper libero, nec lacinia est metus sit amet ex."</p>
+                <p class="author">Company XYZ</p>
+            </div>
+            <div class="reference">
+                <img src="../IMAGES/tiskoviny.jpg" alt="" class="referenceImg" />
+                <p>"Sed euismod, nisl eget cursus rhoncus, sem tellus semper libero, nec lacinia est metus sit amet ex."</p>
+                <p class="author">Company ABC</p>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                $('.carousel').slick({
+                    autoplay: true,
+                    dots: true,
+                    prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
+                    nextArrow: '<button type="button" class="slick-next">&#10095;</button>'
+                });
+            });
+        </script>
+    </section>
+    <div class="line"></div>
+    <section class="contact-us" id="Contacts">
+        <h1 class="Title">Kontakty</h1>
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span>
+                        <h1 class="NTN">Lorem Graphics s.r.o</h1>
+                        <p class="IC">IČO: xxxxxxxxx</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+ 420 888 888 888</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@loremgraphics.cz</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <p>Sídlo:</p>
+                        <h5>Chudenická 1059/23</h5>
+                        <p>Hostivař, 102 00 Praha</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form method="post" action="../php/contact-form-handler-CS.php">
+                    <input type="text" name="name" placeholder="Zadej jméno" required>
+                    <input type="email" name="email" placeholder="Zadej email" required>
+                    <input type="text" name="subject" placeholder="Předmět dotazu" required>
+                    <textarea rows="8" name="message" placeholder="Zpráva" required></textarea>
+                    <button type="submit" class="btn-form">Odeslat zprávu</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <iframe width="720" height="445" id="gmap_canvas" src="https://maps.google.com/maps?width=720&amp;height=445&amp;hl=en&amp;&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="mapouter">
+
+        </div>
+    </section>
+
+    <div class="social">
+        <div class="row2">
+            <div>
+                <a href="/"><img src="../IMAGES/IG.png" class="socialImg" /></a>
+            </div>
+            <div>
+                <a href="/"><img src="../IMAGES/FB.png" class="socialImg" /></a>
+            </div>
+            <div>
+                <a href="/"><img src="../IMAGES/LI.png" class="socialImg" /></a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="../IMAGES/MainLogo.png" alt="">
+            <p>Moderní design pro Vaší značku</p>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2><a href=Sluzby.html class="h2_click">Naše služby</a></h2>
+                <ul class="box">
+                    <li class="fb_orders">Návrh designu</li>
+                    <li class="fb_orders">Výroba reklamních předmětů</li>
+                    <li class="fb_orders">Digitální prezentace</li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>Užitečné odkazy</h2>
+                <ul class="box">
+                    <li><a href="/" class="fb_orders">Obchodní podmínky</a></li>
+                    <li><a href="/" class="fb_orders">Ochrana osobních údajů</a></li>
+                    <li><a href="/" class="fb_orders">Mapa stránek</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Lorem Graphics s.r.o.</h2>
+                <ul class="box">
+                    <li class="fb_orders"> Chudenická 1059/23</li>
+                    <li class="fb_orders">Hostivař, 102 00 Praha </li>
+                    <li>
+                        <a href="tel: +420888888888" class="fb_orders"><img class="footer_C" src="../IMAGES/phone-call.png" /> + 420 888 888 888</a>
+                    </li>
+                    <li>
+                        <a href="mailto:xx@xx.cz" class="fb_orders"><img class="footer_C" src="../IMAGES/mail.png" /> info@loremgraphics.cz</a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+        <div class="footer-bottom">
+            <p class="end">© 2024 Lorem Graphics Všechna práva vyhrazena. </p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
